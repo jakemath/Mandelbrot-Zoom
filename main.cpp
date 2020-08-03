@@ -11,11 +11,6 @@
 #include <math.h>
 #include <string>
 #include <SDL2/SDL.h>
-#include <boost/multiprecision/cpp_dec_float.hpp>
-
-//using namespace boost::numeric::odeint;
-
-typedef boost::multiprecision::cpp_dec_float_50 float_50;
 
 int WIDTH = 1000, HEIGHT = 1000, MAX_ITERATIONS = 200;
 long double RANGE_MIN = -2.0, RANGE_MAX = 2.0, FACTOR = 1.0;
